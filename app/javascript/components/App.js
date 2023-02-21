@@ -7,13 +7,13 @@ import { Provider } from 'react-redux';
 import store from '../redux/configureStore';
 
 // Components
-import Message from './Message';
+import Greeting from './Greeting';
 
 const App = () => {
   return (
     <Provider store={store}>
       <Routes>
-        <Route path="/" element={<Message />} />
+        <Route path="/" element={<Greeting />} />
       </Routes>
     </Provider>
   );
