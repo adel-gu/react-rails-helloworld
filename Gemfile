@@ -73,3 +73,6 @@ end
 
 # Add robucop gem
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+# Add dotenv
+gem 'dotenv-rails', groups: [:development, :test]
